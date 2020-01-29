@@ -5,10 +5,10 @@
 4. Hidden files --> ls -la
 5. I love numbers --> ls -l -n -a
 6. Welcome holberton --> mkdir /tmp/holberton
-7. Betty in Holberton --> mv /tmp/holberton/betty /tmp/holberton
-8. Bye bye Betty --> rm betty
-9. Bye bye Holberton -->
-10. Back to the future
+7. Betty in Holberton --> mv /tmp/betty /tmp/holberton/
+8. Bye bye Betty --> rm /tmp/holberton/betty
+9. Bye bye Holberton --> rmdir /tmp/holberton
+10. Back to the future --> cd -
 11. Lists -->
 12. File type -->
 13. We are symbols, and inhabit symbols -->
