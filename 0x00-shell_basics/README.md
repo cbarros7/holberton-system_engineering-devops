@@ -9,7 +9,7 @@
 8. Bye bye Betty --> rm /tmp/holberton/betty
 9. Bye bye Holberton --> rmdir /tmp/holberton
 10. Back to the future --> cd -
-11. Lists -->
+11. Lists --> ls -la . .. /boot
 12. File type -->
 13. We are symbols, and inhabit symbols -->
 14. Copy HTML files -->
