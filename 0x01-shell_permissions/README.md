@@ -1,5 +1,6 @@
-1. Who am I --> 
-2. Groups 
+0. My name is Betty --> su betty
+1. Who am I --> id -u 
+2. Groups -- > id -g
 3. New owner
 4. Empty!
 5. Execute 
