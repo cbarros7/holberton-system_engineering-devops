@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 25.txt | xargs -d '\n'
+cut -c 1 25.txt | xargs -d
