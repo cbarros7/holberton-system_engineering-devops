@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'ibase=2; 10100111001' | b
+echo 'ibase=2; $BINARY' | b
