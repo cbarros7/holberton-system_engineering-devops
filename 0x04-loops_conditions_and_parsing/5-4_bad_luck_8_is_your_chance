@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" "bad luck" and "good luck" using while, if, elif and else.
+i=1
+while (( i <= 10 ))
+do
+  
+  if [[ "$i" == '4' ]]; then
+    echo "bad luck"
+
+  elif [[ "$i" == '8' ]]; then
+    echo "good luck"
+  
+  else
+    echo "Holberton School"
+  fi
+  ((i++))
+done
