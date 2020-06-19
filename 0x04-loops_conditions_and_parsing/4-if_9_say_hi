@@ -3,9 +3,9 @@
 i=1
 while (( i < 10 ))
 do
-  echo "Holberton School"
-  ((i++))
   if [[ "$i" == '9' ]]; then
     echo "Hi"
   fi
+  echo "Holberton School"
+  ((i++))
 done
