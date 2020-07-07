@@ -1,5 +1,5 @@
 # Networking basics #0 :computer:
-[![Twitter Carlos](https://img.shields.io/twitter/follow/cbarros27?label=CarlosBarros&style=social)](https://twitter.com/cbarros27)In this project I learned about OSI model, ```LAN````, ```WAN```, ```Internet``` and ```TCP/UDP```.
+[![Twitter Carlos](https://img.shields.io/twitter/follow/cbarros27?label=CarlosBarros&style=social)](https://twitter.com/cbarros27)
 
 In this project I learned about OSI model, **LAN**, **WAN**, **Internet** and **TCP/UDP**.
 
