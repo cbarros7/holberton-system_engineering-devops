@@ -1,4 +1,4 @@
-# Processes and signals :computer:
+# Regular expression :computer:
 [![Twitter Carlos](https://img.shields.io/twitter/follow/cbarros27?label=CarlosBarros&style=social)](https://twitter.com/cbarros27)
 
 In this project I learned to build regular expressions using Oniguruma, a library of regular expressions that is used by Ruby. 
@@ -7,7 +7,7 @@ In this project I learned to build regular expressions using Oniguruma, a librar
 ## Requeriments :bookmark_tabs:
 
 * Allowed editors: ```vi```, ```vim```, ```emacs```
-* All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+* All your files will be interpreted/compiled on Ubuntu 14.04 LTS
 * All files should end with a new line
 * The first line of all your Bash scripts should be exactly ```#!/usr/bin/env ruby```
 * All your files must be executable
