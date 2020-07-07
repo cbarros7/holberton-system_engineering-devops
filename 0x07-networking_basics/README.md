@@ -1,9 +1,7 @@
 # Networking basics #0 :computer:
-[![Twitter Carlos](https://img.shields.io/twitter/follow/cbarros27?label=CarlosBarros&style=social)](https://twitter.com/cbarros27)
+[![Twitter Carlos](https://img.shields.io/twitter/follow/cbarros27?label=CarlosBarros&style=social)](https://twitter.com/cbarros27)In this project I learned about OSI model, ```LAN````, ```WAN```, ```Internet``` and ```TCP/UDP```.
 
-In this project I learned about OSI model, ```LAN````, ```WAN```, ```Internet``` and ```TCP/UDP```.
-
-## Requeriments :bookmark_tabs:
+In this project I learned about OSI model, **LAN**, **WAN**, **Internet** and **TCP/UDP**.
 
 * Allowed editors: ```vi```, ```vim```, ```emacs```
 * All your files will be interpreted/compiled on Ubuntu 14.04 LTS
