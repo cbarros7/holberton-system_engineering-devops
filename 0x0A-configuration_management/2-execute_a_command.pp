@@ -1,8 +1,4 @@
 # Execute a command
-
 exec { 'killmenow':
-  command  => '/usr/bin/pkill killmenow',
-  provider => 'shell',
-  returns  => [0, 1],
-}
- 
+  command => '/usr/bin/pkill -f killmenow'
+} 
