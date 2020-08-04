@@ -1,2 +1,4 @@
-# Execute a command
-exec { '/usr/bin/env pkill killmenow':}
+# Kill the process naed killmenow
+exec { 'pkill killmenow':
+  path    => '/usr/bin',
+}
