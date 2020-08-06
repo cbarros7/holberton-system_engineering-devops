@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Install and configure nginx on a new server
+sudo apt-get update
+sudo apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo 'Holberton School' > /etc/nginx/html/index.html
+sed -i '/server_name _/a location /redirect_me { rewrite ^ https://www.youtube.com/watch?v=QH2-TGUlw\u4? permanent; }' /etc/nginx/sites-available/default
+
+echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/huehue.html
+sudo sed -i "/listen 80 default_server/a error_page 404 /huehue.html; location = /huehue.html { root /usr/share/nginx/html; internal; }" /etc/nginx/sites-available/default
+nginx restart
