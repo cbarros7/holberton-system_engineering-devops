@@ -6,7 +6,7 @@ ufw allow 'Nginx HTTP'
 echo 'Holberton School' > /etc/nginx/html/index.html
 
 
-sudo sed -i "server {
+printf %s "server {
     listen 80;
     listen [::]:80 default_server;
     root   /etc/nginx/html;
