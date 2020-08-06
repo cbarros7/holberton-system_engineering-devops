@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Apache to run on the container and to return a page.
+sudo /etc/init.d/apache2 restart
