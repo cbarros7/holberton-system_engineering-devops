@@ -4,14 +4,15 @@ sudo apt-get update
 sudo apt-get -y install nginx
 ufw allow 'Nginx HTTP'
 echo 'Holberton School' > /etc/nginx/html/index.html
-sed -i "server {
-listen 80;
-listen [::]:80 default_server;
-root   /etc/nginx/html;
 
-location /redirect_me {
-return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
-}
-}" > /etc/nginx/sites-available/default
-		 
+
+sudo sed -i "server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /etc/nginx/html;
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+    }
+}" > /etc/nginx/sites-available/defaultault
+
 service nginx restart
