@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# configure web-02 to be identical to web-01 by configuring nginx so its http
+# response contains a custom header
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo echo "Holberton School" > /var/www/html/index.html
+sudo sed -i '/listen 80 default_server/a add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+sudo echo "Ceci n'est pas une page" > /var/www/html/404.html
+sudo sed -i '/server_name _/a location /redirect_me { rewrite ^ https://www.youtube.com/watch?v=QH2-TGUlw\u4? permanent; }' /etc/nginx/sites-available/default
+sudo sed -i '/server_name _/a error_page 404 /404.html; location = /404.html {root /var/www/html/; internal; }' /etc/nginx/sites-available/default
+sudo service nginx restart
