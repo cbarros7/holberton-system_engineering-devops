@@ -15,3 +15,4 @@ and tasked with fixing the web stack to a working state.
                   [Github](https://github.com/cbarros7)
                   [LinkdIn](https://www.linkedin.com/in/carlosbarros7/)
                   [Tableau Public](https://public.tableau.com/profile/carlos.barros#!/?newProfile=&activeTab=0)
+
