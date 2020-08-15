@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#task advance with pupppet
+# task advance with pupppet
 exec { 'http header':
     command  => 'sudo apt-get update -y;
     sudo apt-get install nginx -y;
