@@ -16,6 +16,9 @@ def top_ten(subreddit):
     headers = {'User-Agent': 'Carlos Barros'}
     _size = {"limit": 10}
     r = requests.get(base_url, params=_size, headers=headers).json()
-    child = r.get('data', {}).get('children')
-    for results in child:
-        print(results.get('data').get('title'))
+    child = r.get('data', {}).get('children', None)
+    if child:
+        for results in child:
+            print(results.get('data').get('title'))
+    else:
+        print(None)
