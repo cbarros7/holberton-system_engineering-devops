@@ -14,7 +14,8 @@ def recurse(subreddit, hot_list=[], after=""):
 
     url = "https://api.reddit.com/r/{}/hot".format(subreddit)
     headers = {'User-Agent': 'Carlos Barros'}
-    resp = requests.get(url, headers=headers)
+    arg = {"after": after}
+    resp = requests.get(url, params=arg, headers=headers)
     list_a = resp.json().get('data', {}).get('children', None)
     pagination = resp.json().get('data', {}).get('after', None)
 
