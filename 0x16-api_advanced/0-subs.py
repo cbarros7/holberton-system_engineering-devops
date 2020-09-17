@@ -19,5 +19,5 @@ def number_of_subscribers(subreddit):
         r = requests.get(
             base_url + '{}/about.json'.format(subreddit), headers=headers)
         return r.json().get('data').get('subscribers')
-    except TypeError:
+    except:
         return 0
